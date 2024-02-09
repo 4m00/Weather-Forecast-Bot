@@ -1,17 +1,16 @@
-# Лабораторная работа №4: Анализ данных. Работа с API, создание чат-бота
+# Lab Work №4: Data Analysis. Working with API, Creating a Chatbot
 
-## Описание работы
-Цель работы: Изучить работу с API, освоить работу с библиотеками matplotlib, pandas. Создание tg-бота.
+## Work Description
+Aim of the work: To study working with API, master working with matplotlib, pandas libraries. Creating a tg-bot.
 
+### Tasks
+1. Download an arbitrary dataset and describe it.
+2. Visualize the data using Matplotlib.
+3. Formulate a statistical hypothesis and test it using pandas.
+4. Create a telegram bot in Python that retrieves data via API (current weather, weather forecast, currency exchange rates, etc.).
 
-### Задачи
-1. Скачать произвольный набор данных (датасет) и описать его.
-2. Визуализировать данные при помощи Matplotlib.
-3. Выдвинуть статистическую гипотезу и проверить её при помощи pandas.
-4. Создать telegram-бот на Python, получающий данные по API (текущая погода, прогноз погоды, курс валют и т.д.).
-
-## Описание данных
-Пример данных в формате JSON:
+## Data Description
+Example data in JSON format:
 
 ```json
 {
@@ -63,10 +62,11 @@
   "name": "Zocca",
   "cod": 200
 }
+
 ```
-## Статистическая гипотеза
-Две гипотезы для данной программы:
+## Statistical Hypothesis
+Two hypotheses for this program:
 
-• H0: µ = 0 (средняя температура равна 0)
+• H0: µ = 0 (the average temperature is equal to 0)
 
-• H1: µ ≠0 (средняя температура не равна 0)
+• H1: µ ≠ 0 (the average temperature is not equal to 0)
